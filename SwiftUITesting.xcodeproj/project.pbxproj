@@ -13,6 +13,10 @@
 		EB5401142360366700694A1F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EB5401132360366700694A1F /* Assets.xcassets */; };
 		EB5401172360366700694A1F /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EB5401162360366700694A1F /* Preview Assets.xcassets */; };
 		EB54011A2360366700694A1F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EB5401182360366700694A1F /* LaunchScreen.storyboard */; };
+		EB54012823603D6500694A1F /* Colors.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB54012723603D6500694A1F /* Colors.swift */; };
+		EB54012A23604AD200694A1F /* Company.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB54012923604AD200694A1F /* Company.swift */; };
+		EB54012C23604B2A00694A1F /* CompanyCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB54012B23604B2A00694A1F /* CompanyCell.swift */; };
+		EB54012E2360584100694A1F /* CompanyDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB54012D2360584100694A1F /* CompanyDetailView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +28,10 @@
 		EB5401162360366700694A1F /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		EB5401192360366700694A1F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		EB54011B2360366700694A1F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EB54012723603D6500694A1F /* Colors.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Colors.swift; sourceTree = "<group>"; };
+		EB54012923604AD200694A1F /* Company.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Company.swift; sourceTree = "<group>"; };
+		EB54012B23604B2A00694A1F /* CompanyCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CompanyCell.swift; sourceTree = "<group>"; };
+		EB54012D2360584100694A1F /* CompanyDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CompanyDetailView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,6 +67,10 @@
 				EB54010D2360366400694A1F /* AppDelegate.swift */,
 				EB54010F2360366400694A1F /* SceneDelegate.swift */,
 				EB5401112360366400694A1F /* ContentView.swift */,
+				EB54012B23604B2A00694A1F /* CompanyCell.swift */,
+				EB54012D2360584100694A1F /* CompanyDetailView.swift */,
+				EB54012723603D6500694A1F /* Colors.swift */,
+				EB54012923604AD200694A1F /* Company.swift */,
 				EB5401132360366700694A1F /* Assets.xcassets */,
 				EB5401182360366700694A1F /* LaunchScreen.storyboard */,
 				EB54011B2360366700694A1F /* Info.plist */,
@@ -147,7 +159,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				EB54010E2360366400694A1F /* AppDelegate.swift in Sources */,
+				EB54012C23604B2A00694A1F /* CompanyCell.swift in Sources */,
+				EB54012E2360584100694A1F /* CompanyDetailView.swift in Sources */,
+				EB54012823603D6500694A1F /* Colors.swift in Sources */,
 				EB5401102360366400694A1F /* SceneDelegate.swift in Sources */,
+				EB54012A23604AD200694A1F /* Company.swift in Sources */,
 				EB5401122360366400694A1F /* ContentView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
