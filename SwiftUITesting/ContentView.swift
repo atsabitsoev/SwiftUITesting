@@ -62,7 +62,6 @@ struct ContentView: View {
                         }
                     }
                     .colorScheme(.light)
-                    .animation(.easeOut)
                     
                 }
                 .edgesIgnoringSafeArea(.bottom)

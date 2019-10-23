@@ -22,9 +22,33 @@ struct CompanyDetailView: View {
     
     var body: some View {
         
-        Text("hello")
+        HStack {
+            
+            VStack(alignment: .leading) {
+                Text("Hello")
+                    .foregroundColor(.green)
+                    .font(.largeTitle)
+                    .fontWeight(.black)
+                Text("world")
+                Spacer()
+            }
+            .padding()
+            Spacer()
+            VStack(alignment: .trailing) {
+                Text("Middle")
+                    .font(.title)
+                    .foregroundColor(.red)
+                Text("IOS Developer")
+                    .font(.body)
+                    .foregroundColor(.gray)
+                Spacer()
+            }
+            .padding()
+            .colorScheme(.light)
+        }
         
     }
+    
 }
 
 struct CompanyDetailView_Previews: PreviewProvider {
